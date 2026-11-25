@@ -145,6 +145,7 @@ export default function App() {
   return (
     <div className={`app ${idle && !menu ? 'idle' : ''}`} style={{ '--accent': chapter.accent }}>
       <Backdrop chapter={chapter} />
+      <div className="logo" role="img" aria-label="AIDA, autonomous mobility solutions" style={{ '--logo': `url(${import.meta.env.BASE_URL}img/aida_logo_mask.png)` }} />
 
       <main
         className="stage"

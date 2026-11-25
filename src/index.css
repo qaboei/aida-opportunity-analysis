@@ -411,3 +411,15 @@ cite { display: block; font-family: var(--sans); font-style: normal; font-size: 
 .t-growth .pivot { margin-top: 30px; padding: 38px 40px; }
 .t-vision .g4 .card { min-height: 190px; }
 .t-vision .goals { margin-top: 44px; }
+
+/* ───────────────────────── emblem: the logo as a mask, filled with the chapter colour, turning slowly */
+.logo {
+  position: fixed; top: 22px; right: 26px; z-index: 6; width: 86px; height: 86px;
+  background-color: var(--accent);
+  -webkit-mask: var(--logo) center / contain no-repeat;
+  mask: var(--logo) center / contain no-repeat;
+  animation: spin 60s linear infinite;
+  transition: background-color 1.2s ease;
+  pointer-events: none;
+}
+@media (max-width: 700px) { .logo { width: 54px; height: 54px; top: 14px; right: 14px; } }

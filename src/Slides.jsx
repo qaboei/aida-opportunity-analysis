@@ -43,7 +43,7 @@ function Title() {
       </div>
       <div className="title-art">
         <div className="halo" />
-        <img className="chair r" style={{ '--i': 2 }} src={asset('img/01_hero.png')} alt="The AIDA smart wheelchair" />
+        <img className="chair r" style={{ '--i': 2 }} src={asset('img/aida_open.webp')} alt="AIDA open, as a chair" />
       </div>
     </div>
   )
@@ -655,7 +655,7 @@ function Pitch({ s }) {
 function End() {
   return (
     <div className="end">
-      <img className="end-chair r" style={{ '--i': 0 }} src={asset('img/04_folded.png')} alt="AIDA folded" />
+      <img className="end-chair r" style={{ '--i': 0 }} src={asset('img/aida_closed.webp')} alt="AIDA closed, as a smooth box" />
       <h1 className="r" style={{ '--i': 1 }}>Thank you</h1>
       <p className="r" style={{ '--i': 2 }}>Questions?</p>
       <div className="kicker r" style={{ '--i': 3 }}>AIDA · Lunch, on your own terms.</div>

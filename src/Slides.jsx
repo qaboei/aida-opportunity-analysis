@@ -162,7 +162,7 @@ function Profile({ s }) {
             {s.values.map((v, k) => <span key={v} className="pill r" style={{ '--i': 5 + k }}>{v}</span>)}
           </div>
         </article>
-        <img className="profile-chair r" style={{ '--i': 5 }} src={asset('img/03_side.png')} alt="AIDA from the side" />
+        <img className="profile-chair r" style={{ '--i': 5 }} src={asset('img/aida_side.webp')} alt="AIDA open, from the side" />
       </div>
     </>
   )
